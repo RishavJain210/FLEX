@@ -28,12 +28,14 @@
     .flex-container {
   display: flex;
   background-color: #F6F6F6;
-  flex-wrap: wrap;
+  overflow-x: auto;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
   font-size: 30px;
+  align-content: center;
+
 }
 
     
@@ -84,7 +86,8 @@
   <h1>
     <center>Some Images clicked by me this Summer </center>
   </h1>
-  <div class="flex-container">
+  <center>
+    <div class="flex-container">
   <div><img src="IMG1.jpg" width="200px" height="200px"></div>
   <div><img src="IMG2.jpg" width="200px" height="200px"></div>
   <div><img src="IMG3.jpg" width="200px" height="200px"></div>
@@ -99,6 +102,8 @@
   <div><img src="IMG12.jpg" width="200px" height="200px"></div>
   <div><img src="IMG13.jpg" width="200px" height="200px"></div>
 </div>
+  </center>
+  
   
 
 </body>
